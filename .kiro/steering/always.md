@@ -6,9 +6,11 @@ inclusion: always
 ## Custom
 
 - don't hardcode anything as a fallback when you get exception. It's dangerous and misleading
+- don't install any lib directly. use requirements.txt
 - when I say reqs or REQS, I mean requirements.txt
 - if you see file name called .ant, consider it is my custom "admin notes" file where I keep some notes for admin purposes. It is not related to anything in Java. It's pure local custom notes.
 - when you deal with prompts in python, keep the prompts separated in "prompts/*.txt". It should not be attached with python code. It should be always in .txt file.
+- When you are asked to write changelog or CHANGELOG.md, use official changelog format.
 
 ## FastAPI 
 
@@ -27,3 +29,11 @@ inclusion: always
 
 - SS - Screenshots; when I type SS, assume I am talking about screenshots
 - reqs/REQs/REQS - requirements.txt
+- MOC/moc - Use the `modular-converter.md` steering file
+- MON/mon - Use the `monolithic-converter.md` steering file
+- vul/vl/#vul/#vl - Use the `vulture.md` steering file
+- prs/#prs - Use the `prs.md` steering file
+- cov/cv/#cov/#cv - Use the `code-validator.md` steering file
+- tm/thm/#tm/#thm - Use the `theme-maker.md` steering file
+- rnm/#rnm - Use the `release-notes-maker.md` steering file
+
